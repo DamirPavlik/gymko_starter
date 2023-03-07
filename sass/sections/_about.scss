@@ -1,0 +1,24 @@
+.about-section{
+    padding: 9.6rem 0;
+
+    .text_box_about{
+
+        .about_desc_heading{
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+
+        .about_desc{
+            font-size: 1.6rem;
+            line-height: 1.6;
+            max-width: 90%;
+        }
+
+    }
+    
+    .img_about{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
