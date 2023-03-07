@@ -1,0 +1,19 @@
+.hero-contact{
+    background-image: url('../../img/section_bg.png');
+    background-size: cover;
+    padding: 22rem 0 35rem 0;
+
+    .section_heading{
+        font-size: 5rem;
+        font-weight: 700;
+        color: $white;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 2.6;
+        text-align: center;
+        color: $white;
+    }
+}

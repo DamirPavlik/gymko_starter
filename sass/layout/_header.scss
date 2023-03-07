@@ -1,0 +1,32 @@
+.header{
+    @include headerEl;
+    .nav{
+        @include navEl;
+        
+
+        .logo-img{
+            img{
+                @include logoNav;
+                cursor: pointer;
+            }
+        }
+
+        .main-nav-items{
+            ul{
+                @include navItems;
+                li {
+
+                    a{
+                        @include navA($black);
+
+                    }
+                    a:hover{
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

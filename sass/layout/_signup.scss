@@ -1,0 +1,44 @@
+.signup{
+    padding: 9.6rem 0;
+
+    .subheading{
+        @include subheading($primaryColor)
+    }
+
+    .heading-sec{
+        @include headingSecondary($primaryHeadingColor);
+        margin-bottom: 12rem;
+    }
+
+    .heading-ter{
+       @include headingTertiary($primaryHeadingColor);
+       text-align: center;
+    }
+
+    .signup_icon{
+        display: block;
+        margin: 0 auto;
+        height: 13rem;
+    }
+
+    .signup-desc{
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .cta-signup{
+        @include btn($primaryColor, $primaryColor, $white);
+    }
+
+    .btn-signup-wrapper{
+        text-align: center;
+        margin-top: 12rem;
+    }
+
+    .cta-signup:hover{
+        @include btnHover($primaryColorDarker, $white, $primaryColor)
+    }
+
+
+}

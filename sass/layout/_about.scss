@@ -1,0 +1,38 @@
+.about{
+    background-image: url('../../img/bg_blue_about.png');
+    background-size: cover;
+    padding: 25rem 0;
+    // position: relative;
+
+    .txt_box_about{
+        margin-top: 2rem;
+        .subheading{
+            @include subheading($white)
+        }
+
+        .heading-sec{
+            @include headingSecondary($white);
+            margin-bottom: 5rem;
+        }
+
+        .about_txt{
+            font-size: 1.6rem;
+            line-height: 1.6;
+            color: #fff;
+            opacity: 0.7;
+        }
+
+        .cta-about{
+            @include btn($white, $white, $primaryColor);
+            margin-top:5rem;
+            display: inline-block;
+        }
+
+        .cta-about:hover{
+            @include btnHover(#ececec, $primaryColor, #ececec)
+        }
+    }
+    .about_img{
+        max-width: 100%;
+    }
+}

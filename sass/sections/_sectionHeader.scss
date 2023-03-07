@@ -1,0 +1,35 @@
+.section-header{
+    @include headerEl;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    .section-nav{
+        @include navEl;
+        
+
+        .section-logo-img{
+            img{
+                @include logoNav;
+                cursor: pointer;
+            }
+        }
+
+        .section-main-nav-items{
+            ul{
+                @include navItems;
+                li {
+                    a{
+                        @include navA($white)
+                    }
+                    a:hover{
+                        color: $primaryColorTint;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

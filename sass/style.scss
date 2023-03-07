@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixin';
+@import 'general';
+
+@import 'layout/base';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/signup';
+@import 'layout/about';
+@import 'layout/news';
+@import 'layout/profesori';
+@import 'layout/gallery';
+@import 'layout/footer';
+
+@import 'sections/sectionHeader';
+@import 'sections/section';
+@import 'sections/contact';

@@ -1,0 +1,51 @@
+.hero{
+    padding: 3.6rem 0;
+    .vector{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        // height: 60%;
+    }
+
+    .hero-img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hero-text-box{
+        // margin-top: 10rem;
+        margin: auto;
+        .btn-primary{
+            @include btn($primaryColor, $primaryColor, $white)
+        }
+
+        .btn-primary:hover{
+            @include btnHover($primaryColorDarker, $white, $primaryColorDarker)
+        }
+
+        .btn-secondary{
+            @include btn(#fafafa, $primaryColor, $primaryColor)
+        }
+
+        .btn-secondary:hover{
+            @include btnHover($primaryColor, $white, $primaryColor)
+        }
+        
+        .primary-heading{
+            font-weight: 300;
+            color: $primaryHeadingColor;
+            font-size: 4rem;
+            span{
+                font-size: 5rem;
+                font-weight: 700;
+            }
+        }
+
+        .p-hero{
+            font-size: 1.6rem;
+            color: #717171;
+        }
+    }
+}

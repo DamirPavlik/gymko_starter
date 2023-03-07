@@ -1,0 +1,39 @@
+.profesori{
+    background-image: url('../../img/bg_blue_about.png');
+    background-size: cover;
+    padding: 25rem 0;
+
+
+    .txt-box-profesori{
+        margin-top: 2rem;
+        .subheading{
+            @include subheading($white)
+        }
+        
+        .heading-sec{
+            @include headingSecondary($white);
+            margin-bottom: 5rem;
+        }
+
+        .profesori_desc{
+            font-size: 1.6rem;
+            line-height: 1.6;
+            color: #fff;
+            opacity: 0.7;
+        }
+
+        .profesori_cta{
+            @include btn($white, $white, $primaryColor);
+            margin-top:5rem;
+            display: inline-block;
+        }
+
+        .profesori_cta:hover{
+            @include btnHover(#ececec, $primaryColor, #ececec)
+        }
+    }
+
+    .profesori_img{
+        width: 100%;
+    }
+}
